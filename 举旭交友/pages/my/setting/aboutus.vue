@@ -1,0 +1,41 @@
+<template>
+	<view>
+		<cu-custom :hasBorder="true" :isBack="true">
+			<block slot="content">关于我们</block>
+		</cu-custom>
+		<view class="padding about">
+			在使用本公司官网各项服务以及本公司的各种软件（下称软件，仅指本公司开发的各种软件）前，请您务必仔细阅读并全面理解本声明。您一旦使用本公司官网各项服务和软件，您的使用行为将被视为对本声明全部内容的认可。
+			<view>二、用户使用须知</view>
+			<view>
+				1、用户使用官网的各项服务，必须遵守包括《中华人民共和国刑法》、
+				《中华人民共和国计算机信息网络国际联网管理暂行规定》、《互联网信息服务管理办法》
+				等在内的现有互联网法律法规。用户或其发布的相关文章、图片、评论、广告、宣传、
+				活动及其他各项信息均由其依法承担全部责任。
+			</view>
+			<view>2、用户应在遵守法律法规及《软件使用许可协议书》（下载安装软件前会提示，点击同意视为认可协议书内容）的前提下使用软件。用户无权实施包括但不限于下列行为：
+			</view>
+			<view>2.1、删除软件及其他副本上所有关于版权的信息、内容；
+			</view>
+			<view>2.2、对软件进行反向工程、反向编译或反向汇编，以及改动编译程序文件内部的任何资源；
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {};
+		}
+	}
+</script>
+
+<style lang="scss">
+	page {
+		background: #FFF;
+	}
+	.about{
+		line-height: 50upx;
+	}
+</style>

@@ -1,0 +1,2 @@
+<import src="./mycradit.vue.wxml" />
+    <template is="b1774712" data="{{ ...$root['0'], $root }}"/>

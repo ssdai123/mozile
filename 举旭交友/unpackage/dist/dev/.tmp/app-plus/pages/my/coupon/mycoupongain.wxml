@@ -1,0 +1,1 @@
+<view><cu-custom vue-id="1" hasBorder="{{true}}" isBack="{{true}}" bind:__l="__l" vue-slots="{{['content']}}"><view slot="content">如何获取抵用券</view></cu-custom><view class="padding"><view class="margin">1、注册完成认证并缴费后，获得单次抵用券；</view><view class="margin">2、注册完成认推广用户注册完成并认证缴费后，推广者获得多次抵用券。</view></view></view>

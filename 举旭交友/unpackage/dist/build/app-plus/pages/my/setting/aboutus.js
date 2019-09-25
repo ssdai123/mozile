@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\nbody { background: #FFF; }\n.",[1],"about { line-height: ",[0,50],"; }\n",],undefined,{path:"./pages/my/setting/aboutus.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/setting/aboutus.wxml') } }));

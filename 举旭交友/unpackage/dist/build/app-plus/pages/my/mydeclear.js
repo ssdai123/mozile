@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\nbody { background: #FFF; }\n.",[1],"about { line-height: ",[0,50],"; }\n",],undefined,{path:"./pages/my/mydeclear.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/mydeclear.wxml') } }));

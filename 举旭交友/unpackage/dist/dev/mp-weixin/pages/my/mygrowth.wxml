@@ -1,0 +1,2 @@
+<import src="./mygrowth.vue.wxml" />
+    <template is="a3c3367e" data="{{ ...$root['0'], $root }}"/>

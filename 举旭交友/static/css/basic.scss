@@ -1,0 +1,247 @@
+/* 通用颜色 */
+.color-green {
+	color: #2DDBC4 !important;
+}
+
+.color-gray {
+	color: #8F90A3 !important;
+}
+
+.color-yellow {
+	color: #FE9A21 !important;
+}
+
+.color-888 {
+	color: #888 !important;
+}
+.color-666 {
+	color: #666 !important;
+}
+.icon-zhifubao1{
+	color: #00a1e9 !important;
+}
+.color-333{
+	color: #333 !important;
+}
+.color-deepred{
+	color: #CE2424 !important;
+}
+.icon-weixin{
+	color: #01cf0b !important;
+}
+.icon-jiezhang-diyongquan{
+	color: #fe9a21 !important;
+}
+
+/* 通用文字大小 */
+.fs-20 {
+	font-size: 20upx !important;
+}
+
+.fs-24 {
+	font-size: 24upx !important;
+}
+
+.fs-28 {
+	font-size: 28upx !important;
+}
+
+.fs-32 {
+	font-size: 32upx !important;
+}
+
+.fs-36 {
+	font-size: 36upx !important;
+}
+
+.fs-40 {
+	font-size: 40upx !important;
+}
+
+.fs-44 {
+	font-size: 44upx !important;
+}
+
+/* 排列方向 */
+.text-center {
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+/* flex布局通用 */
+.flex-normal {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.justify-around {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* 背景通用样式 */
+.bg-e5e5 {
+	background: #E5E5E5 !important;
+}
+
+.bg-eee {
+	background: #eee !important;
+}
+
+.bg-green {
+	background: #2DDBC4 !important;
+}
+
+.bg-opacity {
+	background: rgba(0, 0, 0, 0) !important;
+}
+.bg-brown{
+	background: #DDAF79 !important;
+}
+.bg-ccc{
+	background: #CCCCCC !important;
+}
+
+/* 遮罩*/
+.cover {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+}
+
+.cover-cont {
+	width: 80%;
+	background: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+	box-sizing: border-box;
+	border-radius: 10upx;
+	/* overflow: hidden; */
+}
+
+.cover-cont .line {
+	position: absolute;
+	bottom: -100upx;
+	left: 50%;
+	margin-left: -1upx;
+	background: #FFF;
+	width: 2upx;
+	height: 100upx;
+
+}
+
+.cover-cont .line .iconfont {
+	font-size: 48upx;
+	position: absolute;
+	bottom: -48upx;
+	left: -24upx;
+	color: #FFF;
+}
+
+/* 顶部导航栏通用样式 */
+.nav-icon-cont {
+	height: 56upx;
+	width: 56upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	position: relative;
+}
+.nav-right-drop{
+	position: absolute;
+	top: 80upx;
+	right: 15upx;
+	background: #FFF;
+	width: 310upx;
+	color: #333;
+	border-radius: 10upx;
+}
+.nav-right-drop::before{
+	content: '';
+	height: 15upx;
+	width: 15upx;
+	background: #FFF;
+	position: absolute;
+	top: -7upx;
+	right: 40upx;
+	z-index: 3;
+	transform: rotate(45deg);
+}
+.nav-right-drop .cu-list.menu>.cu-item{
+	min-height: 70upx;
+}
+
+/* 信用按钮 */
+.btn-cradit image{
+	height: 30upx;
+	width: 30upx;
+}
+
+/* 性别 */
+.sex-cont{
+	height: 28upx;
+	width: 28upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.sex-cont .iconfont{
+	font-size: 14upx;
+}
+.sex-cont.boy{
+	background: #70BFFC;
+}
+
+.sex-cont.girl{
+	background: #FC70D5;
+}
+
+/* 菜单切换 */
+.tab-cont{
+	line-height: 88upx;
+	.active{
+		color: #2DDBC4;
+		border-bottom: #2DDBC4 4upx solid;
+	}
+}
+
+// 底部菜单栏
+.cu-bar.tabbar{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	.icon{
+		width: 50upx;
+		height: 50upx;
+	}
+}
+
+// 带左边线的标题列表
+.has-bl{
+	border-left: 8upx solid #2DDBC4;
+}

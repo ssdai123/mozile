@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"flow-slide wx-swiper, .",[1],"flow-slide wx-swiper-item { height: ",[0,750],"; }\n.",[1],"flow-slide wx-swiper wx-image, .",[1],"flow-slide wx-swiper-item wx-image { width: 100%; height: ",[0,750],"; }\n.",[1],"cu-card .",[1],"justify-around .",[1],"iconfont { margin-right: ",[0,10],"; }\n",],undefined,{path:"./pages/msg/timeflowall.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/msg/timeflowall.wxml') } }));

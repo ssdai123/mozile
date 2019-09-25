@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"cu-btn.",[1],"bg-opacity { border: ",[0,1]," solid #2DDBC4; background-color: rgba(45, 219, 196, 0.1) !important; color: #2DDBC4; }\n",],undefined,{path:"./pages/login/resetpasswd.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/resetpasswd.wxml') } }));

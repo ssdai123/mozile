@@ -1,0 +1,2 @@
+<import src="./mycashdetail.vue.wxml" />
+    <template is="87fed184" data="{{ ...$root['0'], $root }}"/>

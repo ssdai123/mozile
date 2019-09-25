@@ -1,0 +1,2 @@
+<import src="./joinlist.vue.wxml" />
+    <template is="6bccaafa" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,2 @@
+<import src="./mydeclear.vue.wxml" />
+    <template is="601e2eb2" data="{{ ...$root['0'], $root }}"/>

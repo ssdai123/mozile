@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\nbody { padding-bottom: ",[0,140],"; }\n",],undefined,{path:"./pages/friend/friend.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/friend/friend.wxml') } }));

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "softinputNavBar": "none",
+  "usingComponents": {}
+}

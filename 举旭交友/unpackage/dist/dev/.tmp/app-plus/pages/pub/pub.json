@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker"
+  }
+}

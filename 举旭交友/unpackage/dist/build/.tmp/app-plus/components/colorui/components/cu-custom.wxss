@@ -1,0 +1,14 @@
+
+.bg-opacity{
+	background: rgba(0,0,0,0) !important;
+}
+.bg-cradit{
+	background: #1F2026;
+}
+.back-color{
+	color: #FFF;
+}
+.nav-bg-gray{
+	background: #F1F1F1;
+}
+

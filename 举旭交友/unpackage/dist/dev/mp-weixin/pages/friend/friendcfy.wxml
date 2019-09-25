@@ -1,0 +1,2 @@
+<import src="./friendcfy.vue.wxml" />
+    <template is="14b55f08" data="{{ ...$root['0'], $root }}"/>

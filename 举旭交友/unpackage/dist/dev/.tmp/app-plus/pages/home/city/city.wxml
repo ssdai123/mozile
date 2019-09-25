@@ -1,0 +1,1 @@
+<view><ss-select-city vue-id="1" hotCitys="{{hotCitys}}" value="{{value}}" data-event-opts="{{[['^onSelect',[['saveCity',['$0'],['value']]]],['^input',[['__set_model',['','value','$event',[]]]]]]}}" bind:onSelect="__e" bind:input="__e" bind:__l="__l"></ss-select-city></view>

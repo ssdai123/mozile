@@ -1,0 +1,2 @@
+<import src="./bindphone.vue.wxml" />
+    <template is="5c134ff6" data="{{ ...$root['0'], $root }}"/>

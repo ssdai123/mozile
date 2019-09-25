@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"cu-card { margin-top: ",[0,20],"; }\n.",[1],"cu-card .",[1],"justify-around .",[1],"iconfont { margin-right: ",[0,10],"; }\n.",[1],"cu-item { height: ",[0,170]," !important; }\n",],undefined,{path:"./pages/home/joinlist.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/home/joinlist.wxml') } }));

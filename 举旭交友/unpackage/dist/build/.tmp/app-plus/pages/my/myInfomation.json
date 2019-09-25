@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "cu-custom": "/components/colorui/components/cu-custom",
+    "mpvue-city-picker": "/components/mpvue-citypicker/mpvueCityPicker"
+  }
+}

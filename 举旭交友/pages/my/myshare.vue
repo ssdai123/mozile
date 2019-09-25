@@ -20,7 +20,7 @@
 						<image src="../../static/img/share/qr_tit_line.png" mode=""></image>
 					</view>
 					<view class="qr-cont">
-						<image src="static/img/share/my_qr_wx.png" mode=""></image>
+						<image src="../../static/img/share/my_qr_wx.png" mode=""></image>
 					</view>
 					<view class="d-btn flex align-center justify-center">
 						<text class="iconfont icon-xiazai text-xxl"></text>
